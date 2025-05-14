@@ -1,0 +1,59 @@
+Introduction of Python
+=======================
+1.Basic of Python Programming
+    •	Default keywords in Python
+    •	Python Syntax & Indentation.
+    •	Variables and Data Types.
+    •	Input and Output function
+    •	Operators
+    •	Type convention and Type casting
+2.Control Flow
+    •	Conditional Statements
+    •	Loops
+    •	Loop controls
+3.Functions
+    •	Defining and calling functions
+    •	Functions arguments and parameters
+    •	Return Value
+    •	Lambda
+    •	Filter
+    •	Map
+    •	Reduce
+
+4.Data Structures
+    •	List 
+    •	Tuple
+    •	Difference between list and tuple
+    •	Set
+    •	Dictionary
+    •	List comprehensions
+    •	Dictionary comprehensions
+    •	String manipulation
+5.File Handling
+    •	Reading 
+    •	Writing
+    •	Mode
+6.Exception Handling
+7.Advanced python
+    •	Generators
+    •	Iterators
+    •	Decorators
+8.oops
+    •	Class
+    •	Type of variables in class
+    •	Constructure
+    •	Type of methods
+    •	Type of attributes
+    •	Encapsulation
+    •	Inheritance
+    •	Method overriding
+9.Multi-threading
+10.Python Modules
+    •	os
+    •	regex
+    •	datetime
+    •	collection
+    •	sys
+    •	math
+    •	Custom modules
+
