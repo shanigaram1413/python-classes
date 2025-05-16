@@ -1,0 +1,53 @@
+Feature of python:
+•	Python is a versatile, high-level and easy to read programming language
+•	Python is a interpreted and general purpose programming language
+Key Features:-
+1.Easy to Learn:-Python has a single syntax similar to English , making its beginner friendly.
+2.Versatile:-
+3.Large community
+4.Cross platform
+5.Open source
+6.Interpreted
+7.Dynamically typed
+8.Object-Oriented and Functional :-Python supports multiple programming methodology’s like object-oriented , procedural and Functional.
+9.High level programming language:
+
+
+Python keywords:
+False
+None,
+True
+ 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield'
+import keyword
+keyword.kwlist
+
+Python Syntax & Indentation:-
+
+# single line comment
+"""
+python class
+second time
+"""
+Variables and Data Types:-
+What is a variable?
+Numeric type:
+	Int - -10,10,0,10
+	Float – 10.5,11.0
+Complex  4+5j
+Sequence type:
+	Str – “”
+	List – [“a”,1,10.5]
+	Tuple = ()
+Mapping type:-
+	Dict
+Boolean
+True
+Or false
+
+Set
+None
+
+Input and Output function:-
+Python3
+
+Type casting and operators
