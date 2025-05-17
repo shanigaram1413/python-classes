@@ -3,21 +3,25 @@ Feature of python:
 •	Python is a interpreted and general purpose programming language
 Key Features:-
 1.Easy to Learn:-Python has a single syntax similar to English , making its beginner friendly.
-2.Versatile:-
-3.Large community
-4.Cross platform
-5.Open source
-6.Interpreted
-7.Dynamically typed
-8.Object-Oriented and Functional :-Python supports multiple programming methodology’s like object-oriented , procedural and Functional.
-9.High level programming language:
-
+2.Versatile:-Python can we used for web application, Data Analysis, AI, ML, scripting, automation and more.
+3.Large community:-A vast community provides libraries, framework and support for almost anything you want to build.
+4.Cross platform:-It is platform independent. We can runs an Windows, Linux, Moc and more. 
+5.Open source:-Free to Use
+6.Interpreted:-Python execute code line by line making debugging easier.
+7.Dynamically typed:-You dont ned to declare variable type explicitly.
+8.Object-Oriented and Functional :-Python supports multiple programming methodologys like object-oriented , procedural and Functional.
+9.Python is a High level programming language
 
 Python keywords:
-False
-None,
-True
- 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield'
+False		if		break		yield
+True		else		continue	lambda
+None		elif		pass		global
+and		for		import		class
+or		while		from		assert
+not		try		as		async
+in		except		with		await
+is		finally		def		nonlocal
+del		raise		return
 import keyword
 keyword.kwlist
 
