@@ -26,6 +26,27 @@ import keyword
 keyword.kwlist
 
 Python Syntax & Indentation:-
+	• python statements do not required semicolons(;) at the end.
+	• Each columns typically represent one statement.
+Example:
+	print(“Well come  to python”)
+	• Multiple statements can be written on a single line using semi-colons (;).
+Example:
+x=10;y=20;print(x+y)
+
+	Python is a case-sensitive
+		Name = “Sunny Leon”
+name =  “deepika”
+print(Name)
+print(name)
+	We can use singe line and multi-line comments in python
+o	Single line comments we can use #
+		Example: 
+			#This is single line comment.
+o	Multi-line comments we can use(“””   “”” or ‘’’   ‘’’)
+
+
+
 
 # single line comment
 """
