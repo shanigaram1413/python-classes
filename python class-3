@@ -1,0 +1,24 @@
+Variables and Data Types.
+----------------------------------
+what is a variable?
+A variable is a named location in memory used to store data
+
+* In Python variable are created by assigning  a Value using the = operator.
+
+→ Characteristics of Variables in Python's
+
+1. No Declaration Needed: You don't need to declare the type of the variable explicitly. 
+
+2. Dynamic Typing:-The Same Variable Hata con bald different type data
+
+Variable Naming Rules.
+
+1. must starts with a letter or underscore but not a number. underscore (-)
+
+2. can only contain Alphanumeric characters (a-z, 0-9)
+
+3 case sensitive.
+
+4. can't use Keywords as a Variable names
+
+Example: def, lambda
