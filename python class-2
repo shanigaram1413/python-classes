@@ -61,3 +61,20 @@ If x < 20:
 Common Errors:-
 1.IndentaionError:-Occurs when the indentation is missing.
 2.TabError:- Occurs when Mixed indentation are using in script like Tab and Spaces.
+
+Installation:-
+	Open https://www.python.org
+	Download the python
+	Double click the install file
+	Install now
+After installation we need check 
+	python –version
+	pip –version
+First Python Program:-
+Print(“Hello , well come to python “)
+How to run the program
+	Got to python path
+	cd directory of python file exist
+		Python file.py
+ Example:
+	Cd C:\Users\kiran\Downloads\Solutions\Solutions
