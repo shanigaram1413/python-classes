@@ -34,45 +34,30 @@ Example:
 Example:
 x=10;y=20;print(x+y)
 
-	Python is a case-sensitive
-		Name = “Sunny Leon”
-name =  “deepika”
-print(Name)
-print(name)
-	We can use singe line and multi-line comments in python
-o	Single line comments we can use #
+Python is a case-sensitive
+	Name = “Sunny Leon”
+	name =  “deepika”
+	print(Name)
+	print(name)
+-> We can use singe line and multi-line comments in python
+-> Single line comments we can use #
 		Example: 
 			#This is single line comment.
-o	Multi-line comments we can use(“””   “”” or ‘’’   ‘’’)
+-> Multi-line comments we can use(“””   “”” or ‘’’   ‘’’)
 
-
-
-
-# single line comment
-"""
-python class
-second time
-"""
-Variables and Data Types:-
-What is a variable?
-Numeric type:
-	Int - -10,10,0,10
-	Float – 10.5,11.0
-Complex  4+5j
-Sequence type:
-	Str – “”
-	List – [“a”,1,10.5]
-	Tuple = ()
-Mapping type:-
-	Dict
-Boolean
-True
-Or false
-
-Set
-None
-
-Input and Output function:-
-Python3
-
-Type casting and operators
+Python Indentation:-
+Indentation refers to spaces or tab at the begging of a line.
+It is used to define the scope of code blocks
+	Example:- Functions, class, condition , loops
+Rule for indentation:-
+1.Python enforces indentation omitting it result in an error
+2.Use the same number of spaces or tabs   throughout your code block.
+3.Use either spaces or tabs but not both, if we can use both we can get indentation or tab Error.
+Small Example:-
+X=10
+Y=20
+If x < 20:
+	Print(y)--This line starts with indentation
+Common Errors:-
+1.IndentaionError:-Occurs when the indentation is missing.
+2.TabError:- Occurs when Mixed indentation are using in script like Tab and Spaces.
