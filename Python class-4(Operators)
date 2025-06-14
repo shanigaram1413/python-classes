@@ -200,3 +200,22 @@ Example Evaluation:
 	4. a < b: 10 < 20 is true.
 	5. a < b or (b > c and not(a == 10)): true or false evaluates to true.
 	Thus, the final result is true
+
+Bitwise Operators:-
+==================
+	Bitwise operations operate directly on the binary representations of integers.They perform operations bit by bit.
+Binary representation:-
+----------------------
+	num = 10 
+		 2|10 -- 0		1010 ---> 2**3*1+2**2*0+2**1*1+2**0*0 = 8+0+2+0 = 10
+		 2| 5 -- 1
+ 		 2| 2 -- 0
+		     1
+	num = 11 
+		 2|11 -- 1		1011 ---> 2**3*1+2**2*0+2**1*1+2**0*1 = 8+0+2+1 = 11
+		 2| 5 -- 1
+ 		 2| 2 -- 0
+		     1
+i)AND(&):-
+	Campares each bit of two integers and returns 1 if both the bit are 1 otherwise it returns 0.
+
