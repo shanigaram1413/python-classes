@@ -1,0 +1,62 @@
+Operators:
+=========
+  Operators are special symbols or keywords used to perform operations on variables and values. They can be classified into several types
+1.Arithmetic Operators
+2.Comparison Operators
+3.Logical Operators
+4.Bitwise Operators
+5.Assignment Operators
+6.membership Operators
+7.identity Operators
+8.Ternary Operators
+
+1.Arithmetic Operators:-
+====================
+Addition(+):-
+	Add two numbers or concatenates two strings
+	Syntax: a + b
+	Example:-
+		#numbers
+			result = 10 + 20
+			print(result) #30
+		#strings
+			result = “Hello” + “Python”
+			print(result) # Hello Python
+		#list
+			result = [1,2] + [3,4]
+			print(result) # [1,2,3,4]
+
+Subtraction(-):
+	Subtract the right operand from the left operand
+  	Example:
+  result = 10-5
+  print(result) # 5
+  Note:	We cannot use subtraction for string. If will use we can get the TypeError.
+
+Multiplication:
+	Multiplies two numbers or repeats sequences like string or list
+	Example:
+      result = 10 * 5 
+      print(result) #50
+      repeat = “Hi ” * 5
+      print(repeat) # Hi Hi Hi Hi Hi
+      l = [1,2,3]
+      print(l *2) # [1,2,3,1,2,3]
+Division(/):
+  Divide the left operand by the right operand.
+  example:
+    result = 10/4 #2.5
+    result = 10/2 #5.0
+  Note:- Division always return a float, even if both operands are integers.
+  common Error:
+      ZeroDivisionError
+Floor Division(//):
+    Divide the left operand by the right operand and return the integer quotient.
+  example:
+      result = 10/4 #2
+      result = 10/2 #5
+Note1:By using floor division will loose some value.
+Note2:If both values are integers than only it will return integer value, any one is float it will return float value.
+
+
+  
