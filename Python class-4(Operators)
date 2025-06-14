@@ -58,5 +58,26 @@ Floor Division(//):
 Note1:By using floor division will loose some value.
 Note2:If both values are integers than only it will return integer value, any one is float it will return float value.
 
+Module(%):
+	Returns the reminder of the division of the left operand by the right operand.
+	Example: 
+result = 10%3 => 1	
+result = 15%4 => 3
+calculation of module:
+	2|15|7		3|15|5     	4|15|3		3|10|3
+	   14		     15 		    12		       9
+	-----------	----------	-----------	------------
+	      1 		     0		      3		         1
+	-----------	----------	-----------	--------------
+Exponentiation(**):-
+	Raises the left operand to the power of the right operand.
+	Example:
+		Result = 2**3 = 8
+		Result = 5**2 = 25
 
-  
+Note:
+	Order of the operations 
+		1.Parantheses ()
+		2.Exponentiation(**)
+		3.Multiplication, division, floor division and module
+		4.addition , subtraction.
