@@ -22,3 +22,10 @@ Variable Naming Rules.
 4. can't use Keywords as a Variable names
 
 Example: def, lambda
+
+Data Types in Python:
+Python has built-in data types that define the nature of the data stored in variable.
+1.Numeric Type:
+  int :Whole number (Eg:1,10)
+  float: Decimal numbers(eg:105)
+ complex:Numbers with a real and imaginary part(ex:4+5j)
