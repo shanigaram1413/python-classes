@@ -45,8 +45,8 @@ Note: Use type() function  to get the data type.
 
 Type conversion and Type Casting:
 ---------------------------------
-Type conversion and type casting are processes of converting one data type into another.
-In python this can be done in two ways.
+	Type conversion and type casting are processes of converting one data type into another.
+	In python this can be done in two ways.
 Implicit type conversion:
 -------------------------
 Python automatically converts a smaller data type to a larger data type to avoid data loss. This is done automatically by python
@@ -59,8 +59,8 @@ Python automatically converts a smaller data type to a larger data type to avoid
 2.Explicit type conversion(Type Casting):-
 -----------------------------------------
 	The programmer manually converts a value from one data type to another using pre-define functions.
-int()		bool()		float()		str()
-list()		set()		tuple()
+	int()		bool()		float()		str()
+	list()		set()		tuple()
 Note: Bool convert value to True or False
 	Return False for 0,None,empty collections like([],{},’’)…etc
 	Return True for all other values
@@ -72,17 +72,17 @@ Type Error:
 	The type of input is not compatible with the conversion function.
  
 Input and Output  Functions in python:-
-================================
+=====================================
 Python provides built-in functions for handling user input and display output. These functions are essential for interacting with users in programs.
 
 Input Function:
-============
+==============
 	The input function is used to take input from the user as a string
 		Syntax: variable = input(prompt)
 			Variable --- reference variable
 			Input -- function name
 			Prompt -- > optional—a string display to the user asking for input
-	*This function returns the user input as a string
+	--> This function returns the user input as a string
 Example:
 	name = input(“Enter your name”)
 	print(name)
@@ -91,5 +91,17 @@ Note:-
 	Example:
 		age = input(“Enter your age:”)
 		print(int(age))   # convert input into integer.
-Output functions:
-=================
+Output functions:-
+================
+	The print() function is used to display output to the user
+Syntax:-
+	print(object, set=’’, end=’\n’)
+	object: one or more objects to display
+	sep: separator between objects. Default is a space(optional)
+	end: string appended after the output. Default is new line(optional)
+Example:
+	print(“Hello well come to python”) 
+	print(“Hello”, ”Well”, ”come”, ”To”, ”Python”)
+	print(“Hello”,  “World”,  sep=”-”)
+	print(“Hello”,  end=’ ’)
+	print(“World”)
