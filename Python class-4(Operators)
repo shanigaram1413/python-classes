@@ -65,10 +65,10 @@ result = 10%3 => 1
 result = 15%4 => 3
 calculation of module:
 	2|15|7		3|15|5     	4|15|3		3|10|3
-	   14		     15 		    12		       9
-	-----------	----------	-----------	------------
-	      1 		     0		      3		         1
-	-----------	----------	-----------	--------------
+	  14		  15 		  12		   9
+	------- 	-------	        ---------	-------
+	   1 	    	   0		   3		   1
+	-------	         -------         --------	-------
 Exponentiation(**):-
 	Raises the left operand to the power of the right operand.
 	Example:
@@ -81,3 +81,122 @@ Note:
 		2.Exponentiation(**)
 		3.Multiplication, division, floor division and module
 		4.addition , subtraction.
+Comparison(Relational) Operators:-
+================================
+	Comparison operators are used to compare two values and it will return boolean value(True or False).
+1.Equal(==):-
+	Checks if the value of two operands are equal.
+	Example:
+		x=10
+		y=10
+		print(x==y) #True
+
+		x="Python"
+		y="Java"
+		print(x==y) #False
+2.Not Equal(!=):-
+	Checks if the value of two operands are equal.
+	Example:
+		x=10
+		y=10
+		print(x!=y) #False
+
+		x="Python"
+		y="Java"
+		print(x1=y) #True
+3.Greater than(>):
+	Checks if the left operand is greater than right operand.
+	Example:
+		x=10
+		y=20
+		print(x>y) #False
+4.Less than(<):
+	Checks if the left operand is less than right operand.
+	Example:
+		x=10
+		y=20
+		print(x<y) #True
+5.Greater than equal to(>=):
+	Checks if the left operand is greater than or equal to the right operand.
+	Example:
+		x=10
+		y=20
+		print(x>=y) #False
+
+6.Less than equal to(<=):
+	Checks if the left operand is less than or equal to the right operand.
+	Example:
+		x=10
+		y=20
+		print(x<=y) #True
+
+Use cases of comparison operators:-
+==================================
+i).Commonly used in "if" statements
+ii) Also used in Loop conditions
+Note:
+	Comparison operators also work with strings.Strings are compared character by character using their "unicode" values.
+Example of Unicode:
+	A-65	a-97
+	B-66	b-98
+	C-67	c-99
+	D-68	d-100
+	----	----
+	----	----
+	Z-90	z-122
+	-> when comparing two strings, python stops at the first differing character.
+	-> Python treats uppercase letters as smaller than lowercase.
+	print(ord('A')) --->95
+	print(chr(95)) ---->'A'
+
+Logical Operators:-
+	Logical operators are Used to combine conditional statements and perform operations on Boolean expressions,
+This operators returning either True or False based on the logical relationship between operands.
+1. AND (and):
+	Returns True only if both operands are True. Otherwise, it returns False.
+	Syntax: Condition1 and Condition2
+	Example:
+		If a = 10 and b = 20:
+		print(a > 5 and b < 31) evaluates to True because both conditions are true.
+		print(a > 15 and b < 30) evaluates to False because the first condition is false.
+		Truth table:
+			Cond1	Cond2	Result
+			True 	True	True
+			True	False	False
+			False	True	False
+			False	False	False
+2. OR (or):
+	Returns True if at least one operand is True. It only returns False when both operands are False.
+Syntax: Condition1 or Condition2
+	Example:
+		If a = 10 and b = 20:
+		print(a > 5 or b < 10) evaluates to True because the first condition is true.
+		Truth table:
+			Cond1		Cond2		Result
+			True		True		True
+			True		False		True
+			False		True		True
+			False		False		False
+3.Logical NOT Operator:
+	Reverses the truth value of an operand. If the operand is true, it becomes false, and vice-versa.
+	Syntax:
+		not condition
+	Example:
+		If a = 10 and the expression is not(a > 5), since a > 5 is true, not(a > 5) evaluates to false.
+		If b = 20 and the expression is not(b < 10), since b < 10 is false, not(b < 10) evaluates to true.
+Operator Precedence
+	Logical operators have a specific order of precedence:
+	1. not (highest precedence)
+	2. and
+	3. or (lowest precedence)
+Example Evaluation:
+	a=10
+	b=20
+	c=30
+	result = a<b or b>c and not(a==10)
+	1. not(a == 10): a == 10 is true, so not(a == 10) is false.
+	2. b > c: 20 > 30 is false.
+	3. b > c and not(a == 10): false and false evaluates to false.
+	4. a < b: 10 < 20 is true.
+	5. a < b or (b > c and not(a == 10)): true or false evaluates to true.
+	Thus, the final result is true
