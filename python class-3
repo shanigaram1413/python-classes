@@ -29,5 +29,43 @@ Python has built-in data types that define the nature of the data stored in vari
   int :Whole number (Eg:1,10)
   float: Decimal numbers(eg:105)
  complex:Numbers with a real and imaginary part(eg:4+5j)
+2.Sequence Type:
+	Str: string represent text (Ex: ”Hello”)
+	List: Mutable, Ordered, collection of items
+	Tuple: Immutable, ordered collection of items.
+3.Mapping Type:
+	Dictionary(dict) : Collection of key-value pairs.
+4.Boolean Type:
+	Represent True or False
+5.set type:
+	Set: Unordered collection of unique items
+6.None Type:
+	Represent the absence of a value (Ex: None)
+Note: Use type() function  to get the data type.
 
-2.
+Type conversion and Type Casting:
+---------------------------------------------
+Type conversion and type casting are processes of converting one data type into another.
+In python this can be done in two ways.
+Implicit type conversion:
+---------------------------------
+Python automatically converts a smaller data type to a larger data type to avoid data loss. This is done automatically by python
+	Example:
+		a = 10
+		b = 3.5
+		c = a + b
+		print(type(c)) # float
+		print(c) -13.5
+2.Explicit type conversion(Type Casting):-
+-----------------------------------------------------
+	The programmer manually converts a value from one data type to another using pre-define functions.
+int()		bool()		float()		str()
+list()		set()		tuple()
+Note: Bool convert value to True or False
+	Return False for 0,None,empty collections like([],{},’’)…etc
+	Return True for all other values
+Basic Errors:
+	Value Error: input value is invalid for the target data
+Type Error:
+	The type of input is not compatible with the conversion function.
+ 
