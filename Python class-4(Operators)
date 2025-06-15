@@ -219,3 +219,12 @@ Binary representation:-
 i)AND(&):-
 	Campares each bit of two integers and returns 1 if both the bit are 1 otherwise it returns 0.
 
+	Syntax: a&b
+	example:
+		a=5					cond1 |cond2|result
+		b=3					   1  |  1  |  1
+		result = a&b --->  0101 & 0011 = 0001	   1  |  0  |  0
+		print(result) # 1			   0  |  1  |  0
+							   0  |  0  |  0
+ii)OR(|):
+	
