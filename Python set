@@ -1,0 +1,31 @@
+Set:-
+====
+A set is an unordered , mutable and unindexed coleection of unique elements in python.It is defined using set() function.Will get the output in curly braces{}.
+
+creating a set:-
+  # creating empty set
+    empty = set()
+    Note: we con't use {} for empty set.
+    values = {1,2,3,4,5,6,7,8}
+    print(type(values))
+Adding element:
+--------------
+add() adding a single element to the set.
+values = {1,2,3,4,5,6,7,8}
+values.add(2)
+
+update():-add multiple elements to the set.
+values.update([9,11,12])
+print(values)
+
+Remove Elements from set:-
+-------------------------
+remove(x):-
+  It will remove the specific element from the set. if the element is not available It will raise an error.
+  values.remove(9)
+  print(values)
+
+discard():
+  
+
+pop()
