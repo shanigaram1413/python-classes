@@ -227,4 +227,43 @@ i)AND(&):-
 		print(result) # 1			   0  |  1  |  0
 							   0  |  0  |  0
 ii)OR(|):
-	
+	Campares each bit of two integers and returns 1 if either bit is 1.Returns 0 only if both bits are 0.
+
+	Syntax: a|b
+	example:
+		a=5					cond1 |cond2|result
+		b=3					   1  |  1  |  1
+		result = a|b --->  0101 | 0011 = 0111	   1  |  0  |  1
+		print(result) # 7			   0  |  1  |  1
+							   0  |  0  |  0
+iii)XOR(^):
+	Campares each bit of two integers and returns 1 if bit are different.Returns 0 if both bits are same.
+
+	Syntax: a^b
+	example:
+		a=5					cond1 |cond2|result
+		b=3					   1  |  1  |  0
+		result = a^b --->  0101 ^ 0011 = 0110	   1  |  0  |  1
+		print(result) # 6			   0  |  1  |  1
+							   0  |  0  |  0
+iv)NOT(~):
+	Flips all the bits of an integer .It's equivalent to -(n+1)
+	result = ~5
+	print(result) #-6
+v)Left shift(<<):
+	Shifts the bits of the first operand to the left by the number of places specified by the second operand.
+Fills with 0 on the right side.
+	Syntax: a <<b
+	example:
+		result = 5<<2  #0101 << 2  = 10100 = 20
+vi)Right shift(>>):
+	Shifts the bits of the first operand to the right by the number of places specified by the second operand.
+Fills with 0 on the left side.
+	Syntax: a <<b
+	example:
+		result = 5>>2  #0101 >> 2  = 0101 = 0001 = 1
+
+Assignment Operators:-
+=====================
+
+
